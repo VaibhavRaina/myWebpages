@@ -1,0 +1,21 @@
+.para {
+    text-align: center;
+}
+
+.but1:hover {
+    background-color: rgb(191, 24, 24);
+    color: yellow;
+    font-size: 50px;
+
+}
+
+.but1:active {
+    background-color: rgb(49, 24, 191);
+    color: violet;
+    font-size: 50px;
+
+}
+
+.para:nth-of-type(3n) {
+    background-color: black;
+}
